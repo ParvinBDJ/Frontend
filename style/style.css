@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+}
+
+header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-bottom: 0.5px solid #d1d1d1;
+    max-height: 15vh;
+}
+
+header a,
+li {
+    color: black;
+    text-decoration: none;
+    font-family: 'Alfa Slab One', sans-serif;
+    list-style: none;
+    padding: 2vh 1vw;
+    transition: all ease-in .2s;
+}
+
+header a:hover,
+header a:focus {
+    color: #9d9d9d;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header img {
+    max-height: 12vh;
+    max-width: 10vw;
+    margin: 0px 20px;
+
+}
+
+header.color {
+    background-color: #f4f4f4;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+#button {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h4:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+h5 {
+    margin-top: 5px;
+}
+form {
+    display: block;
+    opacity: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    transition: ease-in 0.2s;
+    text-align: center;
+    margin-left: auto;
+    left: 0;
+    margin-right: auto;
+    right: 0;
+    position: absolute;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main ul {
+    display: flex;
+    padding: 10px 0 0 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    transition: ease 0.3s;
+}
+
+main li {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0;
+    display: inline-block;
+    min-width: 200px;
+    max-width: 300px;
+    animation: fadein 1s;
+
+}
+
+main li h3 {
+    text-align: center;
+}
+
+main li img {
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+main p {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 10px;
+    font-size: 1em;
+}
+
+
+footer {
+    display: block;
+    background-color: #f4f4f4;
+    color: grey;
+    margin-top: 70px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+main li:hover,
+main li:focus {
+    color: white;
+    background-color: black;
+
+}
+
+.truck {
+    padding: 0;
+}
+
+@media only screen and (max-width: 750px) {
+    header {
+        flex-direction: column;
+        max-height: 20vh;
+    }
+
+    header ul {
+        padding: 0;
+    }
+
+    header .img1 {
+        margin-left: 2vw;
+    }
+
+    main ul li {
+        max-width: 45vw;
+    }
+
+    main ul img {
+        max-width: 45vw;
+    }
+
+    main li img {
+        max-width: 45vw;
+    }
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(40%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+.melkbus {
+    float: left;
+    border-radius: 20px;
+    max-width: 100vw;
+    left: -50vw;
+    margin: 0px 20px 20px 0;
+    max-height: 70vh;
+
+}
+
+#melk h1 {
+    font-size: 3em;
+    left: 50vw;
+}
+
+#melk h2 {
+    margin-top: 20px;
+}
+
+
+
+#melk textarea {
+    margin-top: 10px;
+}
+
+#melk button {
+    padding: 20px;
+}
