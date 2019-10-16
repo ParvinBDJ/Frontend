@@ -26,9 +26,9 @@ function nix() {
 
 sub.addEventListener("click", nix)
 
-function poep1() {
-    form.style.opacity = "0";
-    ul.style.marginTop = "0px";
-
-}
-
+//function poep1() {
+//    form.style.opacity = "0";
+//    ul.style.marginTop = "0px";
+//
+//}
+//
