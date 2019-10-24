@@ -142,6 +142,7 @@ main li {
     min-width: 200px;
     max-width: 300px;
     animation: fadein 0.1s;
+    cursor: pointer;
 }
 
 main li h3 {
@@ -162,8 +163,6 @@ main li:hover {
     background-color: #f4f4f4;
     border: 3px solid black;
     margin: 8px;
-    cursor: pointer;
-
 }
 
 main p {
