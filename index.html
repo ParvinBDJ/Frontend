@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        <a class="truck" href="index.html"><img class="img1" src="img/foodtruck.png" alt="Foodtruck Logo"></a>
+        <a class="truck" href="index.html"><img class="img1" src="/img/foodtruck.png" alt="Foodtruck Logo"></a>
         <nav>
             <ul>
                 <li><a href="truck">Trucks</a></li>
@@ -29,23 +29,31 @@
         <button id="button">Filter</button>
         <form>
             <h5>Sorteren</h5>
+            <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select voor "select"-->
             <select name="Op welke volgorde?">
-                <option value="volvo">Prijs oplopend</option>
-                <option value="saab">Prijs aflopend</option>
-                <option value="mercedes">Hoogst beoordeeld</option>
-                <option value="audi">Laagst beoordeeld</option>
+                <option value="Prijs oplopend">Prijs oplopend</option>
+                <option value="Prijs aflopend">Prijs aflopend</option>
+                <option value="Hoogst beoordeeld">Hoogst beoordeeld</option>
+                <option value="Laagst beoordeeld">Laagst beoordeeld</option>
             </select>
             <h5>Dieet</h5>
-            <input type="checkbox" name="vehicle1" value="Bike">Vegetarisch<br>
-            <input type="checkbox" name="vehicle2" value="Car">Vegan<br>
-            <input type="checkbox" name="vehicle3" value="Boat" checked>VLEEES!!<br><br>
+            <input type="checkbox" id="vegetarisch" name="dieet" value="vegetarisch">
+            <label for="vegetarisch">Vegetarisch</label><br>
+
+            <input type="checkbox" id="vegan" name="dieet" value="vegan">
+            <label for="vegan">Vegan</label><br>
+
+            <input type="checkbox" id="vlees" name="dieet" value="vlees" checked>
+            <label for="vlees">VLEES!</label><br><br>
+
             <button type='button' id="sub">submit</button>
         </form>
-        <ul id="ul">
+        <ul class="ul">
 
             <li>
                 <a href="melkbus.html">
                     <img src="img/Melkbus.jpg" alt="Foto van de Melkbus">
+
                     <h3>Melkbus</h3>
                     <p>Veggie Van laat je graag kennis maken met de heerlijke vegetarische en Melkbus keuken! De Melkbus Van Foodtruck sjeest door heel Nederland en daarbuiten om alle gasten te voorzien van heerlijke hapjes en drankjes.</p>
                 </a>

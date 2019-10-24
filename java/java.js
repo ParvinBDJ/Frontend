@@ -7,28 +7,23 @@
 var form = document.querySelector('form');
 var sub = document.getElementById("sub");
 var but = document.getElementById("button");
-var ul = document.getElementById("ul");
+var ul = document.querySelector('.ul');
 
+//*Hulp van Danny
 function poep() {
-    form.style.opacity = "1";
-    ul.style.marginTop = "180px";
+    form.classList.toggle('iets');
+    ul.classList.toggle("niets");
 }
 
 but.addEventListener("click", poep);
 
-
 function nix() {
-    form.style.opacity = "0";
-    ul.style.marginTop = "0px";
-
+    form.classList.toggle('iets');
+    ul.classList.toggle("niets");
 }
 
+sub.addEventListener("click", nix);
 
-sub.addEventListener("click", nix)
 
-//function poep1() {
-//    form.style.opacity = "0";
-//    ul.style.marginTop = "0px";
-//
-//}
-//
+
+

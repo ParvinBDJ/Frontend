@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
 header {
     list-style-type: none;
     display: flex;
@@ -19,6 +24,17 @@ li {
     font-family: 'Alfa Slab One', sans-serif;
     list-style: none;
     padding: 2vh 1vw;
+}
+
+header a {
+    transition: all ease-in .2s;
+}
+
+a p {
+    color: black;
+    text-decoration: none;
+    font-family: 'Alfa Slab One', sans-serif;
+    list-style: none;
     transition: all ease-in .2s;
 }
 
@@ -55,7 +71,6 @@ h2 {
     font-size: 1em;
     font-family: 'Titillium Web', sans-serif;
     margin-bottom: 10px;
-
 }
 
 #button {
@@ -68,7 +83,12 @@ h2 {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+}
 
+#button:hover {
+    color: black;
+    background-color: #f4f4f4;
+    border: 1px black solid;
 }
 
 h4:hover {
@@ -78,7 +98,9 @@ h4:hover {
 
 h5 {
     margin-top: 5px;
+    font-size: 1em;
 }
+
 form {
     display: block;
     opacity: 0;
@@ -91,6 +113,7 @@ form {
     left: 0;
     margin-right: auto;
     right: 0;
+    margin-top: 15px;
     position: absolute;
 }
 
@@ -107,6 +130,7 @@ main ul {
     flex-wrap: wrap;
     margin-top: 40px;
     transition: ease 0.3s;
+    animation: fadein 1s;
 }
 
 main li {
@@ -117,18 +141,27 @@ main li {
     display: inline-block;
     min-width: 200px;
     max-width: 300px;
-    animation: fadein 1s;
-
+    animation: fadein 0.1s;
 }
 
 main li h3 {
     text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
+
 
 main li img {
     min-width: 200px;
     max-width: 300px;
     border-radius: 10px;
+}
+
+main li:hover {
+    background-color: #f4f4f4;
+    border: 3px solid black;
+    margin: 8px;
 }
 
 main p {
@@ -146,22 +179,13 @@ footer {
     padding: 20px;
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
-
-
-}
-
-main li:hover,
-main li:focus {
-    color: white;
-    background-color: black;
-
 }
 
 .truck {
     padding: 0;
 }
 
-/*BRON */
+/*https://www.w3schools.com/cssref/css3_pr_mediaquery.asp*/
 @media only screen and (max-width: 750px) {
     header {
         flex-direction: column;
@@ -189,7 +213,7 @@ main li:focus {
     }
 }
 
-
+/*Tijdens de les van een voorbeeld meegekeken en het daarna zelf gedaan*/
 @keyframes fadein {
     from {
         opacity: 0;
@@ -210,7 +234,6 @@ main li:focus {
     left: -50vw;
     margin: 0px 20px 20px 0;
     max-height: 70vh;
-
 }
 
 #melk h1 {
@@ -230,4 +253,12 @@ main li:focus {
 
 #melk button {
     padding: 20px;
+}
+
+.iets {
+    opacity: 1;
+}
+
+.niets {
+    margin-top: 220px;
 }
