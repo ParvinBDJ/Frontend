@@ -24,7 +24,6 @@ li {
     font-family: 'Alfa Slab One', sans-serif;
     list-style: none;
     padding: 2vh 1vw;
-    cursor: pointer;
 }
 
 header a {
@@ -143,6 +142,8 @@ main li {
     min-width: 200px;
     max-width: 300px;
     animation: fadein 0.1s;
+    cursor: pointer;
+
 }
 
 main li h3 {
