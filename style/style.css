@@ -119,6 +119,7 @@ form {
     margin-top: 15px;
     position: absolute;
     text-align: center;
+    pointer-events: none;
 }
 
 input {
@@ -127,8 +128,10 @@ input {
     margin-top: 10px;
 }
 
-input:focus {
-    border: 3px solid black;
+select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 main ul {
@@ -289,6 +292,8 @@ footer {
 
 .iets {
     opacity: 1;
+    pointer-events: all;
+
 }
 
 .niets {
