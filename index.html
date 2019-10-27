@@ -28,24 +28,43 @@
         <h2>30 oktober 2019</h2>
         <button id="button">Filter</button>
         <form>
-            <h5>Sorteren</h5>
-            <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select voor "select"-->
-            <select name="Op welke volgorde?">
-                <option value="Prijs oplopend">Prijs oplopend</option>
-                <option value="Prijs aflopend">Prijs aflopend</option>
-                <option value="Hoogst beoordeeld">Hoogst beoordeeld</option>
-                <option value="Laagst beoordeeld">Laagst beoordeeld</option>
-            </select>
-            <h5>Dieet</h5>
-            <input type="checkbox" id="vegetarisch" name="dieet" value="vegetarisch">
-            <label for="vegetarisch">Vegetarisch</label><br>
+            <ul class="li">
+                <li>
+                    <h5>Sorteren</h5>
+                    <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select voor "select"-->
+                    <select name="Op welke volgorde?">
+                        <option value="Prijs oplopend">Prijs oplopend</option>
+                        <option value="Prijs aflopend">Prijs aflopend</option>
+                        <option value="Hoogst beoordeeld">Hoogst beoordeeld</option>
+                        <option value="Laagst beoordeeld">Laagst beoordeeld</option>
+                    </select>
+                    <h5>Dieet</h5>
+                    <input type="checkbox" id="vegetarisch" name="dieet" value="vegetarisch">
+                    <label for="vegetarisch">Vegetarisch</label><br>
 
-            <input type="checkbox" id="vegan" name="dieet" value="vegan">
-            <label for="vegan">Vegan</label><br>
+                    <input type="checkbox" id="vegan" name="dieet" value="vegan">
+                    <label for="vegan">Vegan</label><br>
 
-            <input type="checkbox" id="vlees" name="dieet" value="vlees" checked>
-            <label for="vlees">VLEES!</label><br><br>
+                    <input type="checkbox" id="vlees" name="dieet" value="vlees" checked>
+                    <label for="vlees">VLEES!</label><br><br>
+                </li>
 
+                <li>
+                    <h5>Prijscatogorie</h5>
+                    <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select voor "select"-->
+                    <select name="Welke catogorie neemt u?">
+                        <option value="Duur">Duur</option>
+                        <option value="Gemiddeld">Gemiddeld</option>
+                        <option value="Laag">Laag</option>
+                    </select>
+                    <h5>Lekker?</h5>
+                    <input type="radio" id="lekker" name="lekkerste" value="lekker">
+                    <label for="lekker">Lekker</label><br>
+
+                    <input type="radio" id="vies" name="lekkerste" value="vies" checked>
+                    <label for="vies">Goor</label><br>
+                </li>
+            </ul>
             <button type='button' id="sub">submit</button>
         </form>
         <ul class="ul">
