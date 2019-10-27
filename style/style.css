@@ -7,6 +7,7 @@ a {
     list-style: none;
 }
 
+ /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/  voor Flex*/
 header {
     list-style-type: none;
     display: flex;
@@ -47,6 +48,7 @@ header a:focus {
     color: #9d9d9d;
 }
 
+ /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/  voor Flex*/
 header nav ul {
     display: flex;
 }
@@ -134,6 +136,7 @@ select {
     border: 1px solid black;
 }
 
+ /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/  voor Flex*/
 main ul {
     display: flex;
     padding: 10px 0 0 0;
@@ -198,6 +201,7 @@ footer {
     padding: 0;
 }
 
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/  voor Flex*/
 /*https://www.w3schools.com/cssref/css3_pr_mediaquery.asp*/
 @media only screen and (max-width: 750px) {
     header {
@@ -292,6 +296,7 @@ footer {
 
 .iets {
     opacity: 1;
+   /*https://stackoverflow.com/questions/3144050/use-css-to-make-a-span-not-clickable */
     pointer-events: all;
 
 }
@@ -300,6 +305,7 @@ footer {
     margin-top: 250px;
 }
 
+ /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/  voor Flex*/
 main ul.li {
     display: flex;
     padding: 10px 0 0 0;
