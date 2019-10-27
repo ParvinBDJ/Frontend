@@ -11,4 +11,4 @@ Bronnen:
 
 Feedback:
 
-De foto's stuur ik via de mail, deze heb ik niet uitgeprint.
+De foto's lever ik in via Brightspace. Deze bestanden heten: F1 t/m F6.
