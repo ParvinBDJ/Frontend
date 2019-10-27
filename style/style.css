@@ -338,7 +338,9 @@ main ul.li li {
 @media only screen and (max-width: 580px) {
 
     .niets {
-    margin-top: 450px;
+    margin-top: 480px;
     }
-
+    body {
+        background-color: lime;
+    }
 }
