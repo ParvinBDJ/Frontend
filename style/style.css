@@ -106,6 +106,12 @@ form button {
     margin-right: auto;
 }
 
+form button:hover,
+form button:focus {
+    color: black;
+    background-color: #f4f4f4;
+}
+
 fieldset {
     border-radius: 10px;
 
