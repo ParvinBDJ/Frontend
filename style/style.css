@@ -194,6 +194,13 @@ main li:focus {
     margin: 8px;
 }
 
+main li:hover,
+main li:focus {
+    background-color: #f4f4f4;
+    border: 3px solid black;
+    margin: 8px;
+}
+
 main p {
     margin: 10px;
     font-size: 1em;
@@ -361,6 +368,6 @@ main ul.li li {
 @media only screen and (max-width: 580px) {
 
     .niets {
-    margin-top: 480px;
+    margin-top: 550px;
     }
 }
